@@ -1,0 +1,205 @@
+body {
+  	font-family: monospace;
+  	margin: 5px;
+  	display: flex;
+  	justify-content: center;
+ 	 align-items: center;
+  	background:url("https://c.wallhere.com/photos/0b/74/1920x1080_px_landscape_Moon_nature_river_Trees_water-1262159.jpg!d");	
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.degrade{
+	background-image: linear-gradient(45deg, black, grey);
+	height:62vh;
+	color: white;
+	font-family:monospace;
+	font-size: 18px;
+	text-align:center;
+	width: 25%;
+	margin-top: 120px;
+}
+
+#container {
+	position:absolute;
+	width:300px;
+	height:150px;
+	text-align: center;
+	background-color: rgb(0,0,0.8);
+	top: 30%;
+	left:50%;
+	margin-bottom: 20px;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:20px;
+	margin-top: 150px;
+	font-family: georgia;
+	box-shadow: 0 0 50px  rgb(238, 238, 240);
+}
+
+.input-label {
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 15px;
+	padding: 10px;
+	width: 180px;
+}
+
+.custom-input {
+	border-radius: 3px;
+	width: 150px;
+	font-family: georgia;
+	margin-top: 10px;
+	padding: 5px;
+	font-size: 17px;
+	font-family: times new roman;
+}
+
+#result {
+	margin-top: 15px;
+	text-align: center;
+	margin-left: 30%;
+}
+
+button {
+	padding: 8px 16px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: blue; /* Cor padrão do botão */
+	color: #fff; /* Cor do texto do botão */
+	transition: background-color 0.3s;
+	font-family: georgia;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: lightblue; /* Cor do botão ao passar o mouse */
+}
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+	border-radius: 10px; 
+    overflow: hidden;
+	margin-top: 450px;	
+}
+
+.outer-container {
+	width:435px;
+	text-align:center;
+    background: rgb(31, 31, 31); /* Cor de fundo */
+    padding: 15px; /* Espaçamento interno */
+
+}
+
+
+.social-icons {
+    display: flex;	
+    justify-content: space-between;
+    margin-top: 10px;
+	margin-right: 10px;
+	margin: 0 center;
+	padding:5px;
+	width: 87%;
+
+}
+
+.social-icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: green; /* Ou a cor desejada para o hover */
+}
+
+footer{
+	padding: 5px;
+	height: 68px;
+	background:linear-gradient(45deg, black, grey);
+	color: white;
+	font-family: georgia;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+footer a{
+	text-decoration: none;
+	color: lightblue;
+	text-align: left;
+}
+
+footer a:hover{
+	color: aliceblue;
+}
+
+#result{
+	font-family: times new roman;
+	font-size: 18px;
+}
+
+/*
+h2 {
+  color: #333;
+}
+
+.outer-container{
+	background: rgb(31, 31, 31); 
+    padding: 20px; 
+	border-radius: 10px;  
+    overflow: hidden; 
+}
+
+button {
+	width: 150px;
+    height: 30px;
+	font-size: 15px;
+	background-color:rgb(31, 31, 31);
+	border:none;
+	color:white;
+	margin:3px;
+}
+
+button:hover {
+  background-color:black;
+  color: white;
+}
+
+	
+
+.container{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+.conversorMoedas{
+	position:absolute;
+	background-color: rgb(0,0,0.8);
+	top: 50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	border-radius:15px;
+	padding:15px;
+}
+
+.result-container{
+	margin-top: 10px;
+	/*background-color: #f2f2f2;
+	padding: 0px;
+	border-radius: 5px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align:center !important;
+}
+*/
